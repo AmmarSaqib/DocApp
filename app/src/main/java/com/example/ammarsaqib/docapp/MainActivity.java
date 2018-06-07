@@ -9,7 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    //wasup nig
+//mhmhmm
+    //fukin github nigs
     LinearLayout main_ll;
 
     @Override
