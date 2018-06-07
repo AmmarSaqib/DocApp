@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         createTextView();
         createTextView();
         createTextView();
-        
+
 
     }
 
