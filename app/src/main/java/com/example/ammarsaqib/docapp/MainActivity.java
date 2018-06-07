@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     //wasup nig
 //mhmhmm
-    
+
     LinearLayout main_ll;
 
     @Override
