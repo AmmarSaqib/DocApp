@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     // compare and see which ones you want to include in your project?
     // ask me when you read this
 
+    // for comparing and merging
+    // see if you see this!!!!
+
     LinearLayout main_ll;
 
     @Override
