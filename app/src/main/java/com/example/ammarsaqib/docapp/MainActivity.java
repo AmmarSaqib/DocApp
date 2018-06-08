@@ -9,8 +9,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    //wasup nig
-//mhmhmm
+
+    // hi ali if you select update you directly get the latest version from the github that i pushed
+    // so what if you want to compare the alterations of the other developers??
+    // compare and see which ones you want to include in your project?
+    // ask me when you read this
+
     LinearLayout main_ll;
 
     @Override
