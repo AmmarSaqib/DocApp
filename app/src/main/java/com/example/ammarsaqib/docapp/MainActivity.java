@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
-
+        //commit
         FragmentOne home = new FragmentOne();
         ft.replace(R.id.llmain, home);
         ft.commit();
