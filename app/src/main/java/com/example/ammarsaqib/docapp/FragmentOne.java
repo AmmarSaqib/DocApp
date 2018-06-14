@@ -21,6 +21,7 @@ public class FragmentOne extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //creating mainfrag to inflate frag one
         View mainfrag = inflater.inflate(R.layout.fragment_fragment_one, container, false);
+
         // button iniitalising here
         allListing = mainfrag.findViewById(R.id.alllisting);
         spec = mainfrag.findViewById(R.id.Spec);
