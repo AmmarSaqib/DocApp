@@ -80,14 +80,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch(item.getItemId()) {
 
             case R.id.aboutus:
+                /*
+                Showing a dialog fragment with info
+                 */
 
                 fragmentClass = null;
-                aboutus frag = new aboutus();
-                frag.show(this.getSupportFragmentManager(),"DialogFragment" );
+                aboutus abt_us = new aboutus();
+                abt_us.show(this.getSupportFragmentManager(),"DialogFragmentAboutUs" );
                 stack = "about_us";
 
-                // toast is showing up on the main activity
-//                Toast.makeText(this, "testing",Toast.LENGTH_LONG).show();
+                break;
+
+            case R.id.feedback:
+                /* showing a dialog fragment with
+                edit texts for setting the subject and body of the mail
+                options to send or cancel available
+                 */
+
+                fragmentClass = null;
+                feedback feedback = new feedback();
+                feedback.show(this.getSupportFragmentManager(),"DialogFragmentFeedback" );
+                stack = "feedback";
 
                 break;
 
