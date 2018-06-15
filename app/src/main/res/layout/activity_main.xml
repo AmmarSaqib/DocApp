@@ -8,12 +8,20 @@
     android:orientation="vertical"
     android:id="@+id/draw_main">
 
+    <FrameLayout
+        android:id="@+id/fragment_replaceable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></FrameLayout>
+
     <android.support.design.widget.NavigationView
+        android:id="@+id/nav_main"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/drawer_menu"
         android:layout_gravity="start">
 
     </android.support.design.widget.NavigationView>
+
+
 
 </android.support.v4.widget.DrawerLayout>

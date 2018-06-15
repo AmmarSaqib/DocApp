@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentOne">
+    tools:context=".FragmentOne"
+    android:id="@+id/fragment_replaceable">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -53,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Listed by Location"
+                android:text="Nearby Hospitals"
                 android:textAllCaps="false"
                 />
 
