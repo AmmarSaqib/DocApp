@@ -22,11 +22,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle toggle;
     NavigationView navMain;
+    FileRead fileRead;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        fileRead = new FileRead("Doctors.txt",this);
 
         // referencing main navigation view
         navMain = findViewById(R.id.nav_main);
@@ -48,9 +51,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (toggle.onOptionsItemSelected(item))
-        {
             return true;
-        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -75,9 +76,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Fragment fragment = null;
         Class fragmentClass;
 
+        String title = (String) item.getTitle();
         String stack = " ";
 
         switch(item.getItemId()) {
+
+            case R.id.home:
+                fragmentClass = FragmentOne.class;
+                break;
 
             case R.id.aboutus:
                 /*
@@ -110,18 +116,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
 
-
         if (fragmentClass!=null)
         {
             // execute the block if only there is some class assigned to the variable
             try {
-
                 fragment = (Fragment) fragmentClass.newInstance();
-
             } catch (Exception e) {
-
                 e.printStackTrace();
-
             }
 
             // Insert the fragment by replacing any existing fragment
@@ -131,11 +132,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             ft.addToBackStack(stack);
             ft.commit();
         }
+
         // Highlight the selected item has been done by NavigationView
         item.setChecked(true);
 
         // Set action bar title
-        setTitle(item.getTitle());
+        setTitle(title);
 
         // Close the navigation drawer
         drawerLayout.closeDrawers();

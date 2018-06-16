@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,7 +33,16 @@ public class FragmentOne extends Fragment {
         allListing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 //Go to the activity that lists all Doctors
+                FragmentManager fm = getFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+
+                list_all listAll = new list_all();
+                ft.replace(R.id.fragment_replaceable, listAll);
+                ft.addToBackStack("list_all");
+                ft.commit();
+
             }
         });
 
