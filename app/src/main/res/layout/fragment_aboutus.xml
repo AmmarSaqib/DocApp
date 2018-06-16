@@ -4,35 +4,90 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".aboutus"
-    android:id="@+id/fragment_replaceable">
+    android:id="@+id/fragment_replaceable"
+    android:background="@color/colorPrimaryDark"
+    android:padding="10sp"
+    android:layout_gravity="center">
 
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <TextView
+            android:padding="5sp"
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="About Us:"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:layout_width="wrap_content"
+            android:text="About Us"
+            android:textSize="39sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="App made by
-Ammar Saqib (19-11137)
-Ali Rathore (19-*****)"/>
+            android:orientation="horizontal"
+            android:padding="10sp"
+            android:background="@drawable/buttonstyle"
+            >
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/ammar"
+                android:layout_gravity="left"
+                android:layout_marginTop="15sp"
+                />
+            <TextView
+                android:padding="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ammar Saqib"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginTop="5sp"
+                android:fontFamily="sans-serif-thin"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10sp"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="5sp"
+            >
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/ali"
+                android:layout_gravity="left"
+                android:layout_marginTop="15sp"/>
+            <TextView
+                android:padding="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ali Rathore"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginTop="5sp"
+                android:fontFamily="sans-serif-thin"/>
+        </LinearLayout>
 
         <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
             android:id="@+id/aboutus_dismiss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel"/>
+            android:text="back"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
