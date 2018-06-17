@@ -20,7 +20,7 @@ public class DBManager extends SQLiteOpenHelper {
 
         // creating table for doctor information
         String sql = "CREATE TABLE doctor" +
-                "(_id integer, Name text, Specialization text, Fee integer, Hospital text, ContactNo text)";
+                "(_id integer PRIMARY KEY, Name text, Specialization text, Fee integer, Hospital text, ContactNo text)";
         db.execSQL(sql);
 
     }
@@ -49,6 +49,13 @@ public class DBManager extends SQLiteOpenHelper {
     {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM doctor", null);
+        return cursor;
+    }
+
+    public Cursor getById(int id)
+    {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM doctor WHERE _id ="+id ,null);
         return cursor;
     }
 

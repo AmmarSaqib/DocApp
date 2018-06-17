@@ -25,15 +25,18 @@ public class listingCursorAdapter extends CursorAdapter {
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
 
-        //        // declaring and initialising text view
+        // declaring and initialising text view
         TextView doc_name = view.findViewById(R.id.list_all_doc_name);
         TextView doc_spec = view.findViewById(R.id.list_all_doc_spec);
         TextView hos_name = view.findViewById(R.id.list_all_doc_hosname);
+        TextView doc_id = view.findViewById(R.id.list_all_doc_id);
 
         // declaring variable for data
         String docName, docSpec, hosName;
+        int id;
 
         // getting data from cursor and placing them in variables
+        id = cursor.getInt(cursor.getColumnIndex("_id"));
         docName = cursor.getString(cursor.getColumnIndex("Name"));
         docSpec = cursor.getString(cursor.getColumnIndex("Specialization"));
         hosName = cursor.getString(cursor.getColumnIndex("Hospital"));
@@ -42,6 +45,7 @@ public class listingCursorAdapter extends CursorAdapter {
         doc_name.setText(docName);
         doc_spec.setText(docSpec);
         hos_name.setText(hosName);
+        doc_id.setText("id# "+ id);
 
     }
 
