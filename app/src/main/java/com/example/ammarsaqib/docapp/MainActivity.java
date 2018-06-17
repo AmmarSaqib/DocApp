@@ -97,6 +97,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 break;
 
+            case R.id.my_appoint:
+                fragmentClass = myappoint.class;
+                break;
+
             case R.id.feedback:
                 /* showing a dialog fragment with
                 edit texts for setting the subject and body of the mail

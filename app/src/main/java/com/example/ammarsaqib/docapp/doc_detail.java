@@ -1,5 +1,8 @@
 package com.example.ammarsaqib.docapp;
 
+import android.app.DatePickerDialog;
+import android.app.DialogFragment;
+import android.app.TimePickerDialog;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
@@ -11,8 +14,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.TimePicker;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 
 /**
@@ -37,6 +45,7 @@ public class doc_detail extends Fragment {
 
     // bundle object
     Bundle info;
+    ////////////////////
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -59,7 +68,7 @@ public class doc_detail extends Fragment {
 
         // set values to the view
         int id = info.getInt("doctor_id");
-        Log.d("Bundle", "Bundle int: "+id);
+        Log.d("Bundle", "Bundle int: " + id);
         set_values(id);
         return view;
     }
@@ -76,7 +85,6 @@ public class doc_detail extends Fragment {
         Log.d("cursor index",data.getCount() + "");
 
         dbName = data.getString(data.getColumnIndex("Name"));
-//        dbName = data.getString(1);
         dbSpec = data.getString(data.getColumnIndex("Specialization"));
         dbHospital = data.getString(data.getColumnIndex("Hospital"));
         dbFee = data.getInt(data.getColumnIndex("Fee"));
@@ -106,7 +114,17 @@ public class doc_detail extends Fragment {
         makeApoint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // show the appointment detail dialog fragment
+                // show the date and time picker
+                // getting the date and time
+
+                Bundle docid = new Bundle();
+                docid.putInt("doc_id",info.getInt("doctor_id"));
+
+                date newFragment = new date();
+                newFragment.setArguments(docid);
+
+                newFragment.show(getFragmentManager(), "datePicker");
+
             }
         });
 
@@ -122,5 +140,4 @@ public class doc_detail extends Fragment {
         pic = view.findViewById(R.id.info_doc_pic);
 
     }
-
 }

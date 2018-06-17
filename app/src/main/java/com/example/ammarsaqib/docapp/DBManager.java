@@ -23,6 +23,11 @@ public class DBManager extends SQLiteOpenHelper {
                 "(_id integer PRIMARY KEY, Name text, Specialization text, Fee integer, Hospital text, ContactNo text)";
         db.execSQL(sql);
 
+        sql = "CREATE TABLE appointments" +
+                "(_id integer, Name text, Specialization text, Fee integer, Hospital text, ContactNo text, Date text)";
+        db.execSQL(sql);
+
+
     }
 
     @Override
@@ -56,6 +61,30 @@ public class DBManager extends SQLiteOpenHelper {
     {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM doctor WHERE _id ="+id ,null);
+        return cursor;
+    }
+
+    public void addAppoint(int id, String date, doctor_data data)
+    {
+        SQLiteDatabase db = getWritableDatabase();
+
+        ContentValues cv = new ContentValues();
+        cv.put("_id",id);
+        cv.put("Name",data.getName());
+        cv.put("Fee",data.getFee());
+        cv.put("Hospital",data.getHospital());
+        cv.put("Specialization",data.getSpecialization());
+        cv.put("ContactNo",data.getContact_no());
+        cv.put("Date",date);
+
+        db.insert("appointments", null, cv);
+    }
+
+    public Cursor getAppoint()
+    {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * " +
+                " FROM appointments",null);
         return cursor;
     }
 
