@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentOne"
-    android:id="@+id/fragment_replaceable">
+    android:id="@+id/fragment_replaceable"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -12,22 +13,37 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="2"
-        android:padding="15sp">
+        android:padding="10sp"
+        android:background="@color/backforfragone"
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:weightSum="2">
+            android:weightSum="2"
+            android:padding="5sp"
+            >
             <Button
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/buttonstyle"
                 android:id="@+id/alllisting"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="All Listing"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                />
 
             <Button
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/buttonstyle"
                 android:id="@+id/Spec"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -40,8 +56,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="5sp">
             <Button
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/buttonstyle"
                 android:id="@+id/listedbyhsptl"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -50,6 +72,11 @@
                 android:textAllCaps="false"
                 />
             <Button
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/buttonstyle"
                 android:id="@+id/lstdbylocation"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

@@ -3,21 +3,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feedback">
+    tools:context=".feedback"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:padding="5sp"
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_rounded_bg"
+        >
+        <TextView
+            android:padding="5sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textSize="33sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            />
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="10sp">
 
             <TextView
+                android:padding="10sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Subject: "/>
@@ -27,6 +47,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:backgroundTint="@color/white"
+                android:hint="Problem that you are facing"
+                android:textColorHint="@color/gray"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/white"
                 />
 
         </LinearLayout>
@@ -34,9 +60,14 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="10sp">
 
             <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Feedback: "/>
@@ -48,6 +79,11 @@
                 android:inputType="textMultiLine"
                 android:maxLines="5"
                 android:scrollHorizontally="false"
+                android:backgroundTint="@color/white"
+                android:hint="Please explain the problem"
+                android:textColorHint="@color/gray"
+                android:textStyle="italic"
+                android:textColor="@color/white"
                 />
 
         </LinearLayout>
@@ -59,18 +95,28 @@
             android:layout_weight="2">
 
             <Button
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/white"
                 android:id="@+id/feedback_send"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Send"/>
+                android:text="Send"
+                android:background="@drawable/buttonstyle"/>
 
             <Button
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/white"
                 android:id="@+id/feedback_cancel"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Cancel"/>
+                android:text="Cancel"
+                android:background="@drawable/buttonstyle"/>
 
         </LinearLayout>
 

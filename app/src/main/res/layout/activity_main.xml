@@ -6,7 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:id="@+id/draw_main">
+    android:id="@+id/draw_main"
+    >
 
     <FrameLayout
         android:id="@+id/fragment_replaceable"
@@ -18,7 +19,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/drawer_menu"
-        android:layout_gravity="start">
+        android:layout_gravity="start"
+        >
 
     </android.support.design.widget.NavigationView>
 

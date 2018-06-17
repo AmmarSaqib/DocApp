@@ -2,6 +2,8 @@ package com.example.ammarsaqib.docapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -11,6 +13,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -38,6 +41,10 @@ public class feedback extends DialogFragment {
 
         // inflating the view
         View feedback = inflater.inflate(R.layout.fragment_feedback,container,false);
+        if (getDialog() != null && getDialog().getWindow() != null) {
+            getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+            getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        }
 
         // initialising button
         send = feedback.findViewById(R.id.feedback_send);

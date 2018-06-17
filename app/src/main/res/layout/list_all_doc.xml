@@ -1,60 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:weightSum="2"
-    android:id="@+id/fragment_replaceable">
-
-    <LinearLayout
-        android:layout_weight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/list_all_doc_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Doctor id"
-            android:textSize="9sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/list_all_doc_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Doctor Name"
-            android:textSize="16sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/list_all_doc_spec"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Doctor Specialization"
-            android:textSize="12sp"/>
-
-        <TextView
-            android:id="@+id/list_all_doc_hosname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hospital Name"
-            android:textSize="12sp"/>
-
-    </LinearLayout>
+    android:orientation="vertical">
 
     <TextView
-        android:layout_weight="1"
+        android:id="@+id/list_all_doc_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="More Info..."
-        android:paddingVertical="15sp"
-        android:paddingRight="5sp"
-        android:textAlignment="textEnd"
-        tools:ignore="RtlCompat" />
+        android:text="Doctor Name"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/list_all_doc_spec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Specialization"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/list_all_doc_hosname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name"
+        android:textSize="12sp"/>
 
 </LinearLayout>
