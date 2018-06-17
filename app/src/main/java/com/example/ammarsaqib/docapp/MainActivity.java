@@ -97,6 +97,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 break;
 
+            case R.id.login:
+                fragmentClass = null;
+                Toast.makeText(this,"Not Implemented", Toast.LENGTH_SHORT).show();
+                break;
+
             case R.id.my_appoint:
                 fragmentClass = myappoint.class;
                 break;

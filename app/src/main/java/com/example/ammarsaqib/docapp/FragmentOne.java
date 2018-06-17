@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class FragmentOne extends Fragment {
@@ -50,6 +51,13 @@ public class FragmentOne extends Fragment {
             @Override
             public void onClick(View v) {
                 //Go to the activity that lists all Doctors by specialization
+                FragmentManager fm = getFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+
+                bySpec listAll = new bySpec();
+                ft.replace(R.id.fragment_replaceable, listAll);
+                ft.addToBackStack("doc_spec");
+                ft.commit();
             }
         });
 
@@ -57,6 +65,13 @@ public class FragmentOne extends Fragment {
             @Override
             public void onClick(View v) {
                 //Go to the activity that lists all Doctors by hospitals
+                FragmentManager fm = getFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+
+                byHos listAll = new byHos();
+                ft.replace(R.id.fragment_replaceable, listAll);
+                ft.addToBackStack("doc_hos");
+                ft.commit();
             }
         });
 
@@ -64,6 +79,7 @@ public class FragmentOne extends Fragment {
             @Override
             public void onClick(View v) {
                 //Go to the activity that lists all Doctors by the location of the user
+                Toast.makeText(getActivity().getApplicationContext(),"Not Implemented", Toast.LENGTH_SHORT).show();
             }
         });
 

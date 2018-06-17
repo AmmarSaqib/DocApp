@@ -64,6 +64,20 @@ public class DBManager extends SQLiteOpenHelper {
         return cursor;
     }
 
+    public Cursor getBySpec(String spec)
+    {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM doctor WHERE Specialization ='"+spec+"'" ,null);
+        return cursor;
+    }
+
+    public Cursor getByHos(String hos)
+    {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM doctor WHERE Hospital ='"+hos+"'" ,null);
+        return cursor;
+    }
+
     public void addAppoint(int id, String date, doctor_data data)
     {
         SQLiteDatabase db = getWritableDatabase();

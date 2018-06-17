@@ -3,22 +3,38 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:id="@+id/fragment_replaceable">
 
-    <TextView
-        android:id="@+id/list_all_doc_name"
+    <LinearLayout
+        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Doctor Name"
-        android:textSize="16sp"
-        android:textStyle="bold"/>
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/list_all_doc_spec"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Doctor Specialization"
-        android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/list_all_doc_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor id"
+            android:textSize="9sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/list_all_doc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Name"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/list_all_doc_spec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Specialization"
+            android:textSize="12sp"/>
 
     <TextView
         android:id="@+id/list_all_doc_hosname"
@@ -27,4 +43,5 @@
         android:text="Hospital Name"
         android:textSize="12sp"/>
 
+</LinearLayout>
 </LinearLayout>

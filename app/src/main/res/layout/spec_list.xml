@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
     <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:padding="10sp"
         android:id="@+id/doc_spec_tv"
         android:layout_width="match_parent"
@@ -11,4 +8,3 @@
         android:textSize="22sp"
         android:text="Specialization"/>
 
-</LinearLayout>
