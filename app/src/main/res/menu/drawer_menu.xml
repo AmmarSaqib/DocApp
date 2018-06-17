@@ -15,11 +15,6 @@
             app:showAsAction="ifRoom"/>
 
         <item
-            android:id="@+id/history"
-            android:title="@string/drawer_history"
-            app:showAsAction="ifRoom"/>
-
-        <item
             android:id="@+id/login"
             android:title="@string/drawer_login"
             app:showAsAction="ifRoom"/>
