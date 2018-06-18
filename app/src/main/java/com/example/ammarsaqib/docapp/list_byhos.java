@@ -23,7 +23,11 @@ import android.widget.TextView;
  * Use the {@link list_byhos#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class list_byhos extends DialogFragment {
+public class list_byhos extends Fragment {
+
+    /*
+        The class is fragment for the listing of the doctors according to a certain Hospital.
+     */
 
     ListView listDoc;
     DBManager db;

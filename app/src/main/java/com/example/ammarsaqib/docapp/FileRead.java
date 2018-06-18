@@ -53,10 +53,13 @@ public class FileRead {
                 // spliting the line using the comma as delimiter
                 data = line.split(",",0);
 
-//                Log.d("extracted data", data[0]+data[2]);
+                Log.d("extracted data", line);
 
-                // creating an object for the data of a doctor
-                doctor_data docData = new doctor_data(data[0],data[1],Integer.parseInt(data[2]),data[3],data[4]);
+                // creating an object for the data of a doctor without image
+//                doctor_data docData = new doctor_data(data[0],data[1],Integer.parseInt(data[2]),data[3],data[4]);
+
+                // creating an object for the data of a doctor with image
+                doctor_data docData = new doctor_data(data[0],data[1],Integer.parseInt(data[2]),data[3],data[4], data[5]);
 
                 // passing the doctor info object to the db method for insertion
                 db.insert_data(docData);

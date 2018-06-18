@@ -28,6 +28,10 @@ import java.util.ArrayList;
  */
 public class bySpec extends Fragment {
 
+    /*
+    The fragment load the list of Specializations to select from.
+     */
+
     ListView lv;
     ArrayAdapter<String> adapter;
     ArrayList<String> items;

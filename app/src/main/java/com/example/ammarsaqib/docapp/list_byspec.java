@@ -23,7 +23,12 @@ import android.widget.TextView;
  * Use the {@link list_byspec#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class list_byspec extends DialogFragment {
+public class list_byspec extends Fragment {
+
+    /*
+        The class is fragment for the listing of the doctors according to a certain specialization.
+
+     */
 
     ListView listDoc;
     DBManager db;
@@ -41,6 +46,7 @@ public class list_byspec extends DialogFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // getting the bundle from the previous fragment
         b = getArguments();
 
         String spec = b.getString("Spec");
@@ -49,6 +55,7 @@ public class list_byspec extends DialogFragment {
         db = new DBManager(getActivity().getApplicationContext());
 
         // getting the cursor for the data from the database
+        // all doctors by the specialization selected earlier
         cursor = db.getBySpec(spec);
 
         // initialising the cursor adapter
@@ -94,6 +101,7 @@ public class list_byspec extends DialogFragment {
         // creating the doctor detail fragment object
         doc_detail docDetail = new doc_detail();
 
+        // setting arguments to the next fragment class
         docDetail.setArguments(info);
 
         // calling the next fragment to show doctor details

@@ -28,6 +28,7 @@ public class myappointCursorAdapter extends CursorAdapter {
         TextView doc_spec = view.findViewById(R.id.myappoint_doc_spec);
         TextView hos_name = view.findViewById(R.id.myappoint_doc_hosname);
         TextView dateTv = view.findViewById(R.id.myappoint_date);
+        TextView doc_id = view.findViewById(R.id.myappoint_doc_id);
 
         // declaring variable for data
         String docName, docSpec, hosName, date;
@@ -38,12 +39,14 @@ public class myappointCursorAdapter extends CursorAdapter {
         docSpec = cursor.getString(cursor.getColumnIndex("Specialization"));
         hosName = cursor.getString(cursor.getColumnIndex("Hospital"));
         date = cursor.getString(cursor.getColumnIndex("Date"));
+        id = cursor.getInt(cursor.getColumnIndex("_id"));
 
         // setting values in text views
         doc_name.setText(docName);
         doc_spec.setText(docSpec);
         hos_name.setText(hosName);
         dateTv.setText(date);
+        doc_id.setText(Integer.toString(id));
 
     }
 }

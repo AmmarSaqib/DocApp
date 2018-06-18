@@ -24,6 +24,8 @@ import java.util.ArrayList;
  */
 public class byHos extends Fragment {
 
+    /* The fragment load the list of Hospitals to select from */
+
     ListView lv;
     ArrayAdapter<String> adapter;
     ArrayList<String> items;

@@ -15,6 +15,10 @@ import java.util.Calendar;
 
 public class time extends DialogFragment implements TimePickerDialog.OnTimeSetListener {
 
+    /**
+     * Time picker dialog fragment for showing up a dialog for selecting time for the doctor.
+     */
+
     Bundle info;
     String hour, minutes;
     DBManager db;
@@ -53,32 +57,17 @@ public class time extends DialogFragment implements TimePickerDialog.OnTimeSetLi
 
         date_time = info.getString("date");
 
-        date_time = date_time + " " + hour + ":" + minutes;
+        date_time = date_time + " - " + hour + ":" + minutes;
 
-        db.addAppoint(doc_id,date_time,getdocdata(doc_id));
+
+        /**
+         * Adding the appointment made to the database using the doctor's id
+         * received from the previous fragment i.e. the date picker fragment.
+         */
+//        db.addAppoint(doc_id,date_time,getdocdata(doc_id));
+        db.addAppoint(doc_id,date_time);
 
         Toast.makeText(getActivity().getApplicationContext(), "Appointment added to my appoinments", Toast.LENGTH_SHORT).show();
-    }
-
-    public doctor_data getdocdata(int id)
-    {
-        Cursor dat = db.getById(id);
-
-        String name, spec, hos, cnum;
-        int fee;
-
-        dat.moveToFirst();
-
-        name = dat.getString(dat.getColumnIndex("Name"));
-        spec = dat.getString(dat.getColumnIndex("Specialization"));
-        hos = dat.getString(dat.getColumnIndex("Hospital"));
-        cnum = dat.getString(dat.getColumnIndex("ContactNo"));
-        fee = dat.getInt(dat.getColumnIndex("Fee"));
-
-        doctor_data dData = new doctor_data(name,spec,fee,hos,cnum);
-
-        return dData;
-
     }
 
 }

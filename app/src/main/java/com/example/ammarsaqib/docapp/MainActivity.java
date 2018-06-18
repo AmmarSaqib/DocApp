@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         // Highlight the selected item has been done by NavigationView
-        item.setChecked(true);
+//        item.setChecked(true);
 
         // Set action bar title
         setTitle(title);

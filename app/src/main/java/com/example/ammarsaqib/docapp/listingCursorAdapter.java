@@ -6,8 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
-
+import com.squareup.picasso.Picasso;
 import org.w3c.dom.Text;
 
 public class listingCursorAdapter extends CursorAdapter {
@@ -31,8 +32,11 @@ public class listingCursorAdapter extends CursorAdapter {
         TextView hos_name = view.findViewById(R.id.list_all_doc_hosname);
         TextView doc_id = view.findViewById(R.id.list_all_doc_id);
 
+        // for image
+        ImageView doc_img = view.findViewById(R.id.list_all_doc_img);
+
         // declaring variable for data
-        String docName, docSpec, hosName;
+        String docName, docSpec, hosName, img;
         int id;
 
         // getting data from cursor and placing them in variables
@@ -41,11 +45,17 @@ public class listingCursorAdapter extends CursorAdapter {
         docSpec = cursor.getString(cursor.getColumnIndex("Specialization"));
         hosName = cursor.getString(cursor.getColumnIndex("Hospital"));
 
+        // for image
+        img = cursor.getString(cursor.getColumnIndex("Img"));
+
         // setting values in text views
         doc_name.setText(docName);
         doc_spec.setText(docSpec);
         hos_name.setText(hosName);
         doc_id.setText("id# "+ id);
+
+        if (img != "")
+            Picasso.get().load(img).into(doc_img);
 
     }
 

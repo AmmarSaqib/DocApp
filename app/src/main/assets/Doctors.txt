@@ -1,99 +1,101 @@
-Prof. Dr. Asif Ali Shah,Dentist,1500,Rashid Latif Hospital,03000654357
-Prof. Dr. Asma Shafique,Dentist,1500,Medi Consultant Avenue,03000654357
-Dr. M. Shahrukh Lodhi,Dentist,1000,My Dentist Clinic,03314840954
-Dr. Asifa Iqbal,Dentist,1500,Iqbal Clinics,03339932437
-Dr. Omer Farooq Ahmad,Dentist,500,Dental Art,03000654357
-Dr. Zahra Masood,Dentist,500,Dental Art,03000654357
-Dr. Bilal Habib,Dentist,500,Union Hospital,03000654357
-Dr. Imran Zia,Dentist,1000,Imran Dental Surgery,03324936458
-Dr. Agha Suhail,Dentist,1000,Ruqayya Medical Centre,03000654357
-Dr. Zuhaib Farooq,Dentist,1000,International Dental hub,03335421990
-Dr. Somia Iqtadar,General Physician,2500,Race View Hospital,03018474711
-Dr. Faisal Amin Baig,General Physician,2000,Doctors Hospital,04235302701
-Prof. Dr. Taj Jamshaid,General Physician,2000,Hameedah Memorial Hospital,04235210699
-Prof. Dr. Javed Akram,General Physician,3000,Akram Medical Complex,04235710400
-Dr. Fatima Hamdani,General Physician,2000,General Hospital,04299264092
-Dr. Atif Masood,General Physician,1500,Bajwa Hospital,03338885932
-Dr. Muhammad Ali,General Physician,1500,Cavalry Hospital,04236652116
-Dr. Afsar Ali Bhatti,General Surgeon,2500,Doctors Hospital,04235302701
-Dr. Maaz Ul Hassan,General Surgeon,2000,Shalamar Hospital,042111205205
-Dr. Andleeb Khanam,General Surgeon,2000,Fatima Memorial Hospital,042111555600
-Prof. Dr. Huma kayani,Eye Surgeon,2000,Dr. Huma Kayani Clinic,04232591427
-Dr. Waseem Iqbal,Eye Surgeon,2000,Hameed Latif Hospital,042111000043
-Dr. Usman Imtiaz,Eye Surgeon,2000,Chugtai Medical Centre,03111456789
-Dr. Adeel Randhawa,Eye Surgeon,2000,Chugtai Medical Centre,03000654357
-Dr. Abdul Rauf,Eye Surgeon,1500,The Vision,03111222740
-Dr. Muhammad Sufyan Aneeq Ansari,Eye Surgeon,1500,Laser Vision Centre,04235868844
-Dr. Syed Abdullah Mazhar,Eye Surgeon,1500,Fatima Memorial Hospital,042111555600
-Dr. Farukh Jameel,Eye Specialist,1500,Hameedah Memorial Hospital,04235210699
-Dr. Samina Bilal,Eye Surgeon,1000,Laser Vision Centre,04235868844
-Dr. Rashid Nawaz,Eye Surgeon,1000,Cavalry Hospital,04236652116
-Dr. Omar Aziz Rana,Cardiologist,2500,Omar Hospital and Cardiac Centre,042111111127
-Dr. Tayyab Mohyuddin,Cardiologist,2000,National Hospital and Medical Centre,04235730587
-Dr. Junaid Zaffar,Cardiologist,2000,Hameed Latif Hospital,042111000043
-Dr. Gohar Saeed,Cardiologist,2000,National Hospital and Medical Centre,04235730587
-Dr. Ammar Hameed Khan,Cardiologist,1500,Shalamar Hospital,03000654357
-Dr. Muhammad Zarrar Arif Butt,Cardiologist,2000,Masood Hospital,042111627663
-Dr. Muhammad Suleman Khan,Cardiologist,2000,Surgimed Hospital,03000654357
-Dr. Aftab Hussain,Cardiologist,1500,Punjab Institute of Cardiology,03000654357
-Dr. Saeed Afridi,Cardiac Surgeon,2000,Surgimed Hospital,04235714411
-Dr. Naumna Zahoor Ahmed,Cardiologist,2500,Hameed Latif,042111000043
-Dr. Qurat Ul Ain Sajida,Dermatologist,2000,Doctors Hospital,03000654357
-Dr. Umer Mushtaq,Dermatologist,2000,Chugtai Medical Centre,03111456789
-Dr. Tariq Niaz Butt,Dermatologist,1500,Skin Image Skin and Laser Clinic,03000654357
-Dr. Zafar Ullah Khan,Dermatologist,2000,Kanan Clinic,03000654357
-Dr. Zarqa Taimor Suharwardy,Dermatologist,1500,Zarqa Laser Skin and Wellness Clinic,04235852314
-Dr. Uzma Akbar Mirza,Dermatologist,1500, Hameedah Memorial Hospital,03000654357
-Dr. Sehrish Ashraf,Dermatologist,1000,Dr. Sehrish Clinic,03314303938
-Dr. Faria Asad,Dermatologist,2000,National Hospital,04235730587
-Dr. Atif Kazmi,Dermatologist,2000,Kazmi Clinic,03000654357
-Prof. Dr. Ijaz Hussain,Dermatologist,1500,Omar Medical and Cardiac Center,03000654357
-Dr. Usman Ahmad Kamboh,Neuro Surgeon,2000,Iqra Medical Complex,03000654357
-Dr. Adnan Hameed Gill,Neurologist,2000,Hameed Latif Hospital,042111000043
-Dr. Faheem Saeed,Neurologist,2000,Sir Ganga Ram hospital,04299200572
-Dr. Muhammad Azeem Ashfaq,Neurologist,2000,Prof. Dr. Sajid Maqbool Clinic,03000654357
-Dr. Adnan Tariq,Neurologist,1500,Ihsan Mumtaz Hospital,04235222771
-Dr. Rashid Imran,Neurologist,2000,Hameed Latif Hospital,042111000043
-Dr. Syed Arslan Haider,Neurologist,1500,Iqra Medical Complex,04235174500
-Dr. Khalid Mahmood,Neuro Surgeon,2500,Surgimed Hospital,04235714411
-Dr. Farrukh Ali Chaudhry,Neurologist,2500,National hospital and Medical Centre,04235730587
-Dr. Imran Nausher,Orthopedic Surgeon,2000,KKT International Orthopedic Spine Center,042111222558
-Dr. Farooq Azam Khan,Orthopedic Surgeon,1500,Farooq hospital,04237813471
-Dr. Usman Ahmed,Orthopedic Surgeon,1500,Ihsan Mumtaz hospital,04235202135
-Dr. Muhammad Bilal,Orthopedic Surgeon,1500,Farooq Hospital,04237498557
-Dr. Syed Wasif Ali Shah,Orthopedic Surgeon,2000,Iqbal Clinics,03000654357
-Prof. Dr. M A Wajid,Orthopedic Surgeon,2500,National Hospital,04235730587
-Dr. Muhammad Noman Raza,Orthopedic Surgeon,2000,Iqra Medical Complex,04235174500
-Dr. Mohammad Bilal Raza,Orthopedic Surgeon,1500,Masood Hospital,042111627663
-Dr. Tariq Sohail,Orthopedic Surgeon,3000,Doctors hospital,04235302701
-Dr. Ghulam Abbas,Orthopedic Surgeon,2500,Doctors Hospital,03000654357
-Waseem Sarwar,Physiotherapist,1000,Health Bridge Hospital,04237524713
-Tehmina Irfan,Physiotherapist,1500,Iqra Medical Complex,03000654357
-Naveed Anwar,Physiotherapist,1500,Kanan Clinic, 03000654357
-Mehwish Niaz,Physiotherapist,1500,Iqra Medical Complex,04235174500
-Dr. Zeeshan Saeed,Physiotherapist,1500,Life Care Hospital,04235189221
-Shahid Imran,Physiotherapist,1500,Rehab Care, 03000654357
-Salik Nadeem,Physiotherapist,600,Fatima Memorial Hospital,042111555600
-Hira Idrees,Physiotherapist,2500,Rasheed Hospital,03000654357
-Waseem Javaid,Physiotherapist,1500,Wilcare Hospital,042111945227
-Khalid Saeed Khan,Physiotherapist,2000,Khalid Saeed Khan,03000654357
-Dr. Syeda Riffat Iqbal,Gynecologist,2000,Iqbal Clinic,Iqbal Clinic,03339932437
-Dr. Maria Imran,Gynecologist,1500,Health Bridge Hospital,03000654357
-Dr. Umtal Batool,Gynecologist,600,Fatima Memorial Hospital,03000654357
-Dr. Tahmina Sardar,Gynecologist,1500,Iqra Medical Complex,03000654357
-Dr. Rabia Wajid,Gynecologist,2000,Hameed Latif Hospital,042111000043
-Dr. Misbah Malik,Gynecologist,2000,Lahore General Hospital,04299264092
-Dr. Nazli Hameed,Gynecologist,2000,National Hospital,04235730587
-Dr. Shysta Shaukat,Gynecologist,1500,Iqra Medical Complex,03000654357
-Dr. Jamshid Feroze,Gynecologist,2000,Aadil Hospital,03000654357
-Dr. Rehana Amir,Gynecologist,2000,Hameed Latif Hospital,042111000043
-Dr. Shahid Ghafoor Malik,Ent Surgeon,2000,Masood Hospital,042111627663
-Dr. Taimoor Latif Malik,Ent Surgeon,2000,Crescent Medical Complex,03000654357
-Dr. Javed Iqbal,Ent Surgeon,1500,Hameedah Memorial Hospital,04235210699
-Dr. Ijaz Nazir,Ent Surgeon,2000,Farooq Hospital,03000654357
-Dr. Sami Mumtaz,Ent Surgeon,1500,National Hospital & Medical Centre,04235730587
-Dr. Muhammad Awais Amin,Ent Surgeon,1500,Services Hospital,04299203422
-Dr. Khurshid Alam,Ent Surgeon,2500,Doctors Hospital,04235302701
-Dr. Babar Hussain Khan,Ent Surgeon,2000,Hameed Latif Hospital,042111000043
-Dr. Rasheed Baig,Ent Surgeon,2000,Hameedah Memorial, 04235210699
-Dr. Ramzan Ali,Ent Surgeon,1500,Ihsan Mumtaz hospital,03000654357
+Prof. Dr. Asif Ali Shah,Dentist,1500,Rashid Latif Hospital,03000654357,http://connect.marham.pk/assets/doctors/2765/prof-dr-asif-ali-shah-dentist-lahore_200X200.jpg
+Prof. Dr. Asma Shafique,Dentist,1500,Medi Consultant Avenue,03000654357,http://connect.marham.pk/assets/doctors/7129/prof-dr-asma-shafique-dentist-lahore_200X200.jpg
+Dr. M. Shahrukh Lodhi,Dentist,1000,My Dentist Clinic,03314840954,http://connect.marham.pk/assets/doctors/3549/dr-m-shahrukh-lodhi-dentist-lahore_200X200.jpg
+Dr. Asifa Iqbal,Dentist,1500,Iqbal Clinics,03339932437,http://connect.marham.pk/assets/doctors/5038/dr-asifa-iqbal-dentist-lahore_200X200.png
+Dr. Omer Farooq Ahmad,Dentist,500,Dental Art,03000654357,http://connect.marham.pk/assets/doctors/7999/dr-omer-farooq-ahmad-dentist-lahore_200X200.jpg
+Dr. Zahra Masood,Dentist,500,Dental Art,03000654357,http://connect.marham.pk/assets/doctors/8000/dr-zahra-masood-dentist-lahore-72_200X200.jpg
+Dr. Bilal Habib,Dentist,500,Union Hospital,03000654357,http://connect.marham.pk/assets/doctors/7909/dr-bilal-habib-dentist-lahore_200X200.jpg
+Dr. Imran Zia,Dentist,1000,Imran Dental Surgery,03324936458,http://connect.marham.pk/assets/doctors/6955/dr-imran-zia-dentist-lahore_200X200.jpg
+Dr. Agha Suhail,Dentist,1000,Ruqayya Medical Centre,03000654357,http://connect.marham.pk/assets/doctors/8019/dr-agha-suhail-dentist-faisalabad_200X200.jpeg
+Dr. Zuhaib Farooq,Dentist,1000,International Dental hub,03335421990,http://connect.marham.pk/assets/doctors/7309/dr-zuhaib-farooq-dentist-lahore_200X200.jpg
+Dr. Somia Iqtadar,General Physician,2500,Race View Hospital,03018474711,http://connect.marham.pk/assets/doctors/7657/dr-somia-iqtadar-general-physician-lahore_200X200.jpg
+Dr. Faisal Amin Baig,General Physician,2000,Doctors Hospital,04235302701,http://connect.marham.pk/assets/doctors/458/dr-faisal-amin-baig-general-physician-lahore_200X200.jpg
+Prof. Dr. Taj Jamshaid,General Physician,2000,Hameedah Memorial Hospital,04235210699,http://connect.marham.pk/assets/doctors/7778/prof-dr-taj-jamshaid-general-physician-lahore_200X200.JPG
+Prof. Dr. Javed Akram,General Physician,3000,Akram Medical Complex,04235710400,http://connect.marham.pk/assets/doctors/1195/prof-dr-javed-akram-general-physician-lahore_200X200.jpg
+Dr. Fatima Hamdani,General Physician,2000,General Hospital,04299264092,http://connect.marham.pk/assets/doctors/4456/dr-fatima-hamdani-general-physician-lahore_200X200.jpg
+Dr. Atif Masood,General Physician,1500,Bajwa Hospital,03338885932,http://connect.marham.pk/assets/doctors/3029/dr-atif-masood-general-physician-lahore_200X200.jpg
+Dr. Muhammad Ali,General Physician,1500,Cavalry Hospital,04236652116,http://connect.marham.pk/assets/doctors/7633/dr-muhammad-ali-general-physician-lahore_200X200.jpg
+Dr. Afsar Ali Bhatti,General Surgeon,2500,Doctors Hospital,04235302701,http://connect.marham.pk/assets/doctors/226/dr-afsar-ali-bhatti-general-surgeon-lahore_200X200.jpg
+Dr. Maaz Ul Hassan,General Surgeon,2000,Shalamar Hospital,042111205205,http://connect.marham.pk/assets/doctors/7335/dr-maaz-ul-hassan-general-surgeon-lahore_200X200.jpg
+Dr. Andleeb Khanam,General Surgeon,2000,Fatima Memorial Hospital,042111555600,http://connect.marham.pk/assets/doctors/7599/dr-andleeb-khanam-general-surgeon-lahore_200X200.jpg
+Prof. Dr. Huma kayani,Eye Surgeon,2000,Dr. Huma Kayani Clinic,04232591427,http://connect.marham.pk/assets/doctors/7727/prof-dr-huma-kayani-eye-surgeon-lahore_200X200.jpg
+Dr. Waseem Iqbal,Eye Surgeon,2000,Hameed Latif Hospital,042111000043,http://connect.marham.pk/assets/doctors/5651/dr-waseem-iqbal-eye-surgeon-lahore_200X200.jpg
+Dr. Usman Imtiaz,Eye Surgeon,2000,Chugtai Medical Centre,03111456789,http://connect.marham.pk/assets/doctors/8077/dr-usman-imtiaz-eye-surgeon-lahore_200X200.jpg
+Dr. Adeel Randhawa,Eye Surgeon,2000,Chugtai Medical Centre,03000654357,http://connect.marham.pk/assets/doctors/8075/dr-adeel-randhawa-eye-surgeon-lahore_200X200.jpeg
+Dr. Abdul Rauf,Eye Surgeon,1500,The Vision,03111222740,http://connect.marham.pk/assets/doctors/7509/dr-abdul-rauf-eye-surgeon-lahore_200X200.jpg
+Dr. Muhammad Sufyan Aneeq Ansari,Eye Surgeon,1500,Laser Vision Centre,04235868844,http://connect.marham.pk/assets/doctors/6904/dr-muhammad-sufyan-aneeq-ansari-eye-surgeon-lahore_200X200.jpg
+Dr. Syed Abdullah Mazhar,Eye Surgeon,1500,Fatima Memorial Hospital,042111555600,http://connect.marham.pk/assets/doctors/7862/dr-syed-abdullah-mazhar-eye-surgeon-lahore_200X200.jpg
+Dr. Farukh Jameel,Eye Specialist,1500,Hameedah Memorial Hospital,04235210699,http://connect.marham.pk/assets/doctors/6799/dr-farukh-jameel-eye-specialist-lahore_200X200.jpg
+Dr. Samina Bilal,Eye Surgeon,1000,Laser Vision Centre,04235868844,http://connect.marham.pk/assets/doctors/6049/dr-samina-bilal-eye-surgeon-lahore_200X200.jpg
+Dr. Rashid Nawaz,Eye Surgeon,1000,Cavalry Hospital,04236652116,http://connect.marham.pk/assets/doctors/7320/dr-rashid-nawaz-eye-surgeon-lahore_200X200.jpg
+Dr. Mian Muhammad Arshad Mahmood,Eye Surgeon,1500,Laser Eye Centre,03341166707,http://connect.marham.pk/assets/doctors/7334/prof-dr-mian-muhammad-arshad-mahmood-eye-surgeon-lahore_200X200.jpg
+Dr. Omar Aziz Rana,Cardiologist,2500,Omar Hospital and Cardiac Centre,042111111127,http://connect.marham.pk/assets/doctors/695/dr-omar-aziz-rana-cardiologist-lahore-14_200X200.jpg
+Dr. Tayyab Mohyuddin,Cardiologist,2000,National Hospital and Medical Centre,04235730587,http://connect.marham.pk/assets/doctors/6870/dr-tayyab-mohyuddin-cardiologist-lahore-8_200X200.jpg
+Dr. Junaid Zaffar,Cardiologist,2000,Hameed Latif Hospital,042111000043,http://connect.marham.pk/assets/doctors/2916/dr-junaid-zaffar-cardiologist-lahore_200X200.jpg
+Dr. Gohar Saeed,Cardiologist,2000,National Hospital and Medical Centre,04235730587,http://connect.marham.pk/assets/doctors/307/dr-gohar-saeed-cardiologist-lahore_200X200.jpg
+Dr. Ammar Hameed Khan,Cardiologist,1500,Shalamar Hospital,03000654357,http://connect.marham.pk/assets/doctors/5556/dr-ammar-hameed-khan-cardiologist-lahore_200X200.jpg
+Dr. Muhammad Zarrar Arif Butt,Cardiologist,2000,Masood Hospital,042111627663,http://connect.marham.pk/assets/doctors/208/dr-muhammad-zarrar-arif-butt-cardiologist-lahore_200X200.jpg
+Dr. Muhammad Suleman Khan,Cardiologist,2000,Surgimed Hospital,03000654357,http://connect.marham.pk/assets/doctors/7108/dr-muhammad-suleman-khan-cardiologist-lahore_200X200.jpg
+Dr. Aftab Hussain,Cardiologist,1500,Punjab Institute of Cardiology,03000654357,http://connect.marham.pk/assets/doctors/6916/dr-aftab-hussain-cardiologist-lahore_200X200.jpg
+Dr. Saeed Afridi,Cardiac Surgeon,2000,Surgimed Hospital,04235714411,http://connect.marham.pk/assets/doctors/7283/dr-saeed-afridi-cardiac-surgeon-lahore_200X200.jpg
+Dr. Nauman Zahoor Ahmed,Cardiologist,2500,Hameed Latif,042111000043,http://connect.marham.pk/assets/doctors/7573/dr-nauman-zahoor-ahmed-cardiologist-lahore_200X200.jpg
+Dr. Qurat Ul Ain Sajida,Dermatologist,2000,Doctors Hospital,03000654357,http://connect.marham.pk/assets/doctors/8090/dr-qurat-ul-ain-sajida-dermatologist-lahore_200X200.jpg
+Dr. Umer Mushtaq,Dermatologist,2000,Chugtai Medical Centre,03111456789,http://connect.marham.pk/assets/doctors/5396/dr-umer-mushtaq-dermatologist-lahore_200X200.jpg
+Dr. Tariq Niaz Butt,Dermatologist,1500,Skin Image Skin and Laser Clinic,03000654357,http://connect.marham.pk/assets/doctors/6121/dr-tariq-niaz-butt-dermatologist-lahore_200X200.jpg
+Dr. Zafar Ullah Khan,Dermatologist,2000,Kanan Clinic,03000654357,http://connect.marham.pk/assets/doctors/7601/dr-zafar-ullah-khan-dermatologist-lahore_200X200.jpg
+Dr. Zarqa Taimor Suharwardy,Dermatologist,1500,Zarqa Laser Skin and Wellness Clinic,04235852314,http://connect.marham.pk/assets/doctors/731/dr-zarqa-taimor-suharwardy-dermatologist-lahore_200X200.jpg
+Dr. Uzma Akbar Mirza,Dermatologist,1500, Hameedah Memorial Hospital,03000654357,http://connect.marham.pk/assets/doctors/6802/dr-uzma-akbar-mirza-dermatologist-lahore_200X200.jpg
+Dr. Sehrish Ashraf,Dermatologist,1000,Dr. Sehrish Clinic,03314303938,http://connect.marham.pk/assets/doctors/7661/dr-sehrish-ashraf-dermatologist-lahore_200X200.jpg
+Dr. Faria Asad,Dermatologist,2000,National Hospital,04235730587,http://connect.marham.pk/assets/doctors/324/dr-faria-asad-dermatologist-lahore_200X200.jpg
+Dr. Atif Kazmi,Dermatologist,2000,Kazmi Clinic,03000654357,http://connect.marham.pk/assets/doctors/5477/dr-atif-kazmi-dermatologist-lahore_200X200.jpg
+Prof. Dr. Ijaz Hussain,Dermatologist,1500,Omar Medical and Cardiac Center,03000654357,http://connect.marham.pk/assets/doctors/693/prof-dr-ijaz-hussain-dermatologist-lahore_200X200.jpg
+Dr. Usman Ahmad Kamboh,Neuro Surgeon,2000,Iqra Medical Complex,03000654357,http://connect.marham.pk/assets/doctors/8051/dr-usman-ahmad-kamboh-neuro-surgeon-lahore_200X200.jpg
+Dr. Adnan Hameed Gill,Neurologist,2000,Hameed Latif Hospital,042111000043,http://connect.marham.pk/assets/doctors/2903/dr-adnan-hameed-gill-neurologist-lahore_200X200.jpg
+Dr. Faheem Saeed,Neurologist,2000,Sir Ganga Ram hospital,04299200572,http://connect.marham.pk/assets/doctors/3443/dr-faheem-saeed-neurologist-lahore_200X200.jpg
+Dr. Muhammad Azeem Ashfaq,Neurologist,2000,Prof. Dr. Sajid Maqbool Clinic,03000654357,http://connect.marham.pk/assets/doctors/7765/dr-muhammad-azeem-ashfaq-neurologist-lahore_200X200.jpg
+Dr. Adnan Tariq,Neurologist,1500,Ihsan Mumtaz Hospital,04235222771,http://connect.marham.pk/assets/doctors/7157/dr-adnan-tariq-neurologist-lahore_200X200.jpg
+Dr. Rashid Imran,Neurologist,2000,Hameed Latif Hospital,042111000043,http://connect.marham.pk/assets/doctors/4483/dr-rashid-imran-neurologist-lahore_200X200.jpg
+Dr. Syed Arslan Haider,Neurologist,1500,Iqra Medical Complex,04235174500,http://connect.marham.pk/assets/doctors/7200/dr-syed-arslan-haider-neurologist-lahore_200X200.jpg
+Dr. Khalid Mahmood,Neuro Surgeon,2500,Surgimed Hospital,04235714411,http://connect.marham.pk/assets/doctors/640/dr-khalid-mahmood-neuro-surgeon-lahore_200X200.jpg
+Dr. Farrukh Ali Chaudhry,Neurologist,2500,National hospital and Medical Centre,04235730587,http://connect.marham.pk/assets/doctors/7031/dr-farrukh-ali-chaudhry-neurologist-lahore_200X200.jpg
+Dr. Muhammad Ashraf Shaheen,Neuro Surgeon,3000,Al Shafi Hospital,04237811267,https://www.marham.pk/assets/images/new/similar.jpg
+Dr. Imran Nausher,Orthopedic Surgeon,2000,KKT International Orthopedic Spine Center,042111222558,http://connect.marham.pk/assets/doctors/7582/dr-imran-nausher-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Farooq Azam Khan,Orthopedic Surgeon,1500,Farooq hospital,04237813471,http://connect.marham.pk/assets/doctors/5449/dr-farooq-azam-khan-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Usman Ahmed,Orthopedic Surgeon,1500,Ihsan Mumtaz hospital,04235202135,http://connect.marham.pk/assets/doctors/6112/dr-usman-ahmed-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Muhammad Bilal,Orthopedic Surgeon,1500,Farooq Hospital,04237498557,http://connect.marham.pk/assets/doctors/7804/dr-muhammad-bilal-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Syed Wasif Ali Shah,Orthopedic Surgeon,2000,Iqbal Clinics,03000654357,http://connect.marham.pk/assets/doctors/7669/dr-syed-wasif-ali-shah-orthopedic-surgeon-lahore_200X200.jpg
+Prof. Dr. M A Wajid,Orthopedic Surgeon,2500,National Hospital,04235730587,http://connect.marham.pk/assets/doctors/6788/prof-dr-m-a-wajid-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Muhammad Noman Raza,Orthopedic Surgeon,2000,Iqra Medical Complex,04235174500,http://connect.marham.pk/assets/doctors/7763/dr-muhammad-noman-raza-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Mohammad Bilal Raza,Orthopedic Surgeon,1500,Masood Hospital,042111627663,http://connect.marham.pk/assets/doctors/7677/dr-mohammad-bilal-raza-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Tariq Sohail,Orthopedic Surgeon,3000,Doctors hospital,04235302701,http://connect.marham.pk/assets/doctors/264/dr-tariq-sohail-orthopedic-surgeon-lahore_200X200.jpg
+Dr. Ghulam Abbas,Orthopedic Surgeon,2500,Doctors Hospital,03000654357,http://connect.marham.pk/assets/doctors/236/dr-ghulam-abbas-orthopedic-surgeon-lahore_200X200.jpg
+Waseem Sarwar,Physiotherapist,1000,Health Bridge Hospital,04237524713,http://connect.marham.pk/assets/doctors/7652/waseem-sarwar-physiotherapist-lahore_200X200.jpg
+Tehmina Irfan,Physiotherapist,1500,Iqra Medical Complex,03000654357,http://connect.marham.pk/assets/doctors/8059/tehmina-irfan-physiotherapist-lahore_200X200.png
+Naveed Anwar,Physiotherapist,1500,Kanan Clinic, 03000654357,http://connect.marham.pk/assets/doctors/7346/naveed-anwar-physiotherapist-lahore_200X200.jpg
+Mehwish Niaz,Physiotherapist,1500,Iqra Medical Complex,04235174500,http://connect.marham.pk/assets/doctors/7835/mehwish-niaz-physiotherapist-lahore_200X200.jpg
+Dr. Zeeshan Saeed,Physiotherapist,1500,Life Care Hospital,04235189221,http://connect.marham.pk/assets/doctors/7596/zeeshan-saeed-physiotherapist-lahore_200X200.jpeg
+Shahid Imran,Physiotherapist,1500,Rehab Care, 03000654357,http://connect.marham.pk/assets/doctors/8034/shahid-imran-physiotherapist-lahore_200X200.jpg
+Salik Nadeem,Physiotherapist,600,Fatima Memorial Hospital,042111555600,http://connect.marham.pk/assets/doctors/3569/salik-nadeem-physiotherapist-lahore_200X200.jpg
+Hira Idrees,Physiotherapist,2500,Rasheed Hospital,03000654357,http://connect.marham.pk/assets/doctors/6823/dr-hira-idrees-physical-therapist-lahore-64_200X200.jpeg
+Waseem Javaid,Physiotherapist,1500,Wilcare Hospital,042111945227,http://connect.marham.pk/assets/doctors/7354/waseem-javaid-physiotherapist-lahore_200X200.jpg
+Khalid Saeed Khan,Physiotherapist,2000,Khalid Saeed Khan,03000654357,http://connect.marham.pk/assets/doctors/7255/khalid-saeed-khan-physiotherapist-lahore_200X200.jpg
+Dr. Syeda Riffat Iqbal,Gynecologist,2000,Iqbal Clinic,Iqbal Clinic,03339932437,http://connect.marham.pk/assets/doctors/7668/dr-syeda-riffat-iqbal-gynecologist-lahore_200X200.jpg
+Dr. Maria Imran,Gynecologist,1500,Health Bridge Hospital,03000654357,http://connect.marham.pk/assets/doctors/6923/dr-maria-imran-gynecologist-lahore_200X200.jpeg
+Dr. Umtal Batool,Gynecologist,600,Fatima Memorial Hospital,03000654357,http://connect.marham.pk/assets/doctors/7822/dr-umtal-batool-gynecologist-lahore_200X200.jpg
+Dr. Tahmina Sardar,Gynecologist,1500,Iqra Medical Complex,03000654357,http://connect.marham.pk/assets/doctors/7796/dr-tahmina-sardar-gynecologist-lahore_200X200.jpg
+Dr. Rabia Wajid,Gynecologist,2000,Hameed Latif Hospital,042111000043,http://connect.marham.pk/assets/doctors/7569/dr-rabia-wajid-gynecologist-lahore_200X200.jpg
+Dr. Misbah Malik,Gynecologist,2000,Lahore General Hospital,04299264092,http://connect.marham.pk/assets/doctors/1732/dr-misbah-malik-gynecologist-lahore_200X200.jpg
+Dr. Nazli Hameed,Gynecologist,2000,National Hospital,04235730587,http://connect.marham.pk/assets/doctors/7227/dr-nazli-hameed-gynecologist-lahore_200X200.JPG
+Dr. Shysta Shaukat,Gynecologist,1500,Iqra Medical Complex,03000654357,http://connect.marham.pk/assets/doctors/7132/dr-shysta-shaukat-gynecologist-lahore_200X200.jpg
+Dr. Jamshid Feroze,Gynecologist,2000,Aadil Hospital,03000654357,http://connect.marham.pk/assets/doctors/7793/dr-jamshid-feroze-gynecologist-lahore_200X200.jpg
+Dr. Rehana Amir,Gynecologist,2000,Hameed Latif Hospital,042111000043,http://connect.marham.pk/assets/doctors/5943/dr-rehana-amir-gynecologist-lahore_200X200.jpg
+Dr. Shahid Ghafoor Malik,Ent Surgeon,2000,Masood Hospital,042111627663,http://connect.marham.pk/assets/doctors/7820/dr-shahid-ghafoor-malik-ent-surgeon-lahore_200X200.jpg
+Dr. Taimoor Latif Malik,Ent Surgeon,2000,Crescent Medical Complex,03000654357,http://connect.marham.pk/assets/doctors/7761/dr-taimoor-latif-malik-ent-surgeon-lahore_200X200.jpg
+Dr. Javed Iqbal,Ent Surgeon,1500,Hameedah Memorial Hospital,04235210699,http://connect.marham.pk/assets/doctors/6877/dr-javed-iqbal-ent-surgeon-lahore_200X200.jpg
+Dr. Ijaz Nazir,Ent Surgeon,2000,Farooq Hospital,03000654357,http://connect.marham.pk/assets/doctors/3388/dr-ijaz-nazir-ent-surgeon-lahore_200X200.jpg
+Dr. Sami Mumtaz,Ent Surgeon,1500,National Hospital & Medical Centre,04235730587,http://connect.marham.pk/assets/doctors/330/dr-sami-mumtaz-ent-surgeon-lahore_200X200.jpg
+Dr. Muhammad Awais Amin,Ent Surgeon,1500,Services Hospital,04299203422,http://connect.marham.pk/assets/doctors/7595/dr-muhammad-awais-amin-ent-surgeon-lahore_200X200.png
+Dr. Khurshid Alam,Ent Surgeon,2500,Doctors Hospital,04235302701,http://connect.marham.pk/assets/doctors/245/dr-khurshid-alam-ent-surgeon-lahore_200X200.jpg
+Dr. Babar Hussain Khan,Ent Surgeon,2000,Hameed Latif Hospital,042111000043,http://connect.marham.pk/assets/doctors/5560/dr-babar-hussain-khan-ent-surgeon-lahore_200X200.jpg
+Dr. Rasheed Baig,Ent Surgeon,2000,Hameedah Memorial, 04235210699,http://connect.marham.pk/assets/doctors/6798/dr-rasheed-baig-ent-surgeon-lahore_200X200.jpg
+Dr. Ramzan Ali,Ent Surgeon,1500,Ihsan Mumtaz hospital,03000654357,http://connect.marham.pk/assets/doctors/7768/dr-ramzan-ali-ent-surgeon-lahore_200X200.jpg
