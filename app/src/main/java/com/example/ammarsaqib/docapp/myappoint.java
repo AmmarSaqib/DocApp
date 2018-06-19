@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,6 +25,7 @@ public class myappoint extends Fragment {
     ListView myAppoint = null;
     Cursor cursor;
     myappointCursorAdapter adapter;
+    SwipeRefreshLayout refreshLayout;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -31,11 +33,11 @@ public class myappoint extends Fragment {
 
         db = new DBManager(getActivity().getApplicationContext());
 
-//        cursor = db.getAppoint();
+        cursor = db.getAppoint();
 
-//        adapter = new myappointCursorAdapter(getActivity().getApplicationContext(),cursor);
+        adapter = new myappointCursorAdapter(getActivity().getApplicationContext(),cursor);
 
-//        adapter.notifyDataSetChanged();
+        adapter.notifyDataSetChanged();
     }
 
     public myappoint() {
@@ -52,6 +54,16 @@ public class myappoint extends Fragment {
         // initialising the list view
         myAppoint = view.findViewById(R.id.list_myappoint);
 
+        refreshLayout = view.findViewById(R.id.swipe_refresh);
+
+        refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                updateList();
+                refreshLayout.setRefreshing(false);
+            }
+        });
+
         // setting an onclicklistener to the items in the list view
         myAppoint.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -59,10 +71,6 @@ public class myappoint extends Fragment {
                 onClick(parent, view, position, id);
             }
         });
-
-        cursor = db.getAppoint();
-        adapter = new myappointCursorAdapter(getActivity().getApplicationContext(),cursor);
-        adapter.notifyDataSetChanged();
 
         // setting adapter to view
         myAppoint.setAdapter(adapter);
@@ -97,6 +105,7 @@ public class myappoint extends Fragment {
     {
         cursor = db.getAppoint();
         adapter = new myappointCursorAdapter(getActivity().getApplicationContext(),cursor);
+        myAppoint.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }
 

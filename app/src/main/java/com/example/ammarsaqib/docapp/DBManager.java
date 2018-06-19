@@ -164,8 +164,6 @@ public class DBManager extends SQLiteOpenHelper {
          * The function deletes a record in the appointment table with the id passed
          */
         SQLiteDatabase db = getWritableDatabase();
-//        db.rawQuery("DELETE FROM appointments" +
-//                " WHERE _id = '" + id + "';", null);
         db.delete("appointments","_id = '" + id + "'",null);
     }
 

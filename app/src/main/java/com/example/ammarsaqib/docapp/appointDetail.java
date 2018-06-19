@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.squareup.picasso.Picasso;
 
 public class appointDetail extends DialogFragment {
@@ -114,6 +116,8 @@ public class appointDetail extends DialogFragment {
                 // doctor from the appointments table in the database
 
                 db.delById(doc_id);
+
+                Toast.makeText(getActivity().getApplicationContext(), "Swipe to Refresh List", Toast.LENGTH_SHORT).show();
 
                 // dismissing after deleting record
                 getDialog().dismiss();
