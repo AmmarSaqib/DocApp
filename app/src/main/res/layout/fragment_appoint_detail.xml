@@ -2,7 +2,9 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/backforfragone"
+    >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -23,6 +25,7 @@
                 android:src="@drawable/ic_launcher_background"/>
 
             <LinearLayout
+                android:padding="5sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -33,12 +36,14 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Id: "
                         android:textStyle="bold"/>
 
                     <TextView
+                        android:textColor="@color/white"
                         android:id="@+id/appoint_det_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -53,12 +58,14 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Name: "
                         android:textStyle="bold"/>
 
                     <TextView
+                        android:textColor="@color/white"
                         android:id="@+id/appoint_det_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -73,12 +80,14 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Specialization: "
                         android:textStyle="bold"/>
 
                     <TextView
+                        android:textColor="@color/white"
                         android:id="@+id/appoint_det_spec"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -93,12 +102,14 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hospital: "
                         android:textStyle="bold"/>
 
                     <TextView
+                        android:textColor="@color/white"
                         android:id="@+id/appoint_det_hosname"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -113,12 +124,14 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Fee: "
                         android:textStyle="bold"/>
 
                     <TextView
+                        android:textColor="@color/white"
                         android:id="@+id/appoint_det_fee"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -133,12 +146,14 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Contact# "
                         android:textStyle="bold"/>
 
                     <TextView
+                        android:textColor="@color/white"
                         android:id="@+id/appoint_det_cnum"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -158,12 +173,14 @@
             android:orientation="horizontal">
 
             <TextView
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Appointment Date: "
                 android:textStyle="bold"/>
 
             <TextView
+                android:textColor="@color/white"
                 android:id="@+id/appoint_det_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -179,16 +196,20 @@
             android:orientation="horizontal">
 
             <Button
+                android:background="@drawable/buttonstyle"
                 android:id="@+id/cancel_appoint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cancel Appointment"/>
+                android:text="Cancel Appointment"
+                android:textColor="@color/white"/>
 
             <Button
+                android:background="@drawable/buttonstyle"
                 android:id="@+id/close"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Close"/>
+                android:text="Close"
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 

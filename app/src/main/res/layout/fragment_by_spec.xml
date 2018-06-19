@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bySpec">
+    tools:context=".bySpec"
+    android:background="@color/backforfragone">
 
     <!-- TODO: Update blank fragment layout -->
     <ListView
         android:id="@+id/docspec"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        ></ListView>
 
 </FrameLayout>

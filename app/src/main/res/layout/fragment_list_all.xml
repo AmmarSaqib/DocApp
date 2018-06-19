@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".list_all"
-    android:id="@+id/fragment_replaceable">
+    android:id="@+id/fragment_replaceable"
+    android:background="@color/backforfragone"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <ListView

@@ -60,6 +60,7 @@ public class bySpec extends Fragment {
         items.add("Gynecologist");
         items.add("Ent Surgeon");
 
+
         adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(), R.layout.spec_list, items);
 
     }

@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.login:
+                //login fragment was to be called here, but since it was not working it isnt
                 fragmentClass = null;
                 Toast.makeText(this,"Not Implemented", Toast.LENGTH_SHORT).show();
                 break;

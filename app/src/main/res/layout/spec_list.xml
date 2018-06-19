@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TextView
+    android:background="@color/backforfragone"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:padding="10sp"
+        android:textColor="@color/white"
         android:id="@+id/doc_spec_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="22sp"
-        android:text="Specialization"/>
+        android:text="Specialization" />
 
